@@ -1,0 +1,24 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Pollen Server",
+      "type": "shell",
+      "command": "raco pollen start",
+      "isBackground": true,
+      "detail": "Pollen Server",
+      "icon": {
+        "color": "terminal.ansiYellow",
+        "id": "server"
+      },
+      "promptOnClose": false,
+      "runOptions": {
+        "runOn": "folderOpen",
+        "instanceLimit": 1
+      },
+      "problemMatcher": []
+    }
+  ]
+}

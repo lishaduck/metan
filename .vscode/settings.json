@@ -1,0 +1,10 @@
+{
+  "markdownlint.config": {
+    "first-line-heading": false
+  },
+  "[racket]": {
+    "editor.rulers": [],
+    "editor.wordSeparators": "()[]{}\",'`;#|<>◊/=",
+    "editor.defaultFormatter": "lishizhen.racket-fmt"
+  }
+}
